@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 def pow(a, b):
     result = 1
-    for i in range(0, b):
-        if b > 0:
+    if b > 0:
+        for _ in range(b):
             result *= a
-    for i in range(b, 0):
-        if b < 0:
+    elif b < 0:
+        for _ in range(abs(b)):
             result /= a
     return result
