@@ -1,35 +1,45 @@
 #include "lists.h"
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 /**
-*is_palindrome - identify if a syngle linked list is palindrome
-*@head: head of listint_t
-*Return: 1 if it is palindrome else 0
-*/
+ * is_palindrome - Checks if a linked list of integers is a palindrome.
+ *
+ * @head: Pointer to the head of the linked list.
+ *
+ * Return: 1 if the linked list is a palindrome, 0 otherwise.
+ */
 int is_palindrome(listint_t **head)
 {
-	listint_t *head2 = *head;
-	listint_t *aux = NULL, *aux2 = NULL;
-
-	if (*head == NULL || head2->next == NULL)
+	if (*head == NULL || (*head)->next == NULL)
 		return (1);
-	while (head2 != NULL)
+	listint_t *slow = *head;
+	listint_t *fast = *head;
+
+	while (fast->next != NULL && fast->next->next != NULL)
 	{
-		add_nodeint(&aux, head2->n);
-		head2 = head2->next;
+		slow = slow->next;
+		fast = fast->next->next;
 	}
-	aux2 = aux;
-	while (*head != NULL)
+	listint_t *prev = NULL;
+	listint_t *current = slow->next;
+	listint_t *next = NULL;
+
+	while (current != NULL)
 	{
-		if ((*head)->n != aux2->n)
-		{
-			free_listint(aux);
+		next = current->next;
+		current->next = prev;
+		prev = current;
+		current = next;
+	}
+	listint_t *firstHalf = *head;
+	listint_t *secondHalf = prev;
+
+	while (secondHalf != NULL)
+	{
+		if (firstHalf->n != secondHalf->n)
 			return (0);
-		}
-		*head = (*head)->next;
-		aux2 = aux2->next;
+		firstHalf = firstHalf->next;
+		secondHalf = secondHalf->next;
 	}
-	free_listint(aux);
 	return (1);
 }
-
