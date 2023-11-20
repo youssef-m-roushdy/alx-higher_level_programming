@@ -1,12 +1,13 @@
-
-def safe_print_list(my_list=[], x=0):
+def safe_print_list(my_list=None, x=0):
     try:
-        if x > len(my_list):
-            x = len(my_list)
-        for i in range(0, x):
-            print("{}".format(my_list[i]), end="")
+        if my_list is None:
+            my_list = []  # Create an empty list if my_list is not provided
+        count = 0
+        while count < x:
+            print("{}".format(my_list[count]), end="")
+            count += 1
         print("")
-        return x
+        return count
     except IndexError:
-        print("Index out of range")
-        return 0
+        print("")
+        return count
