@@ -6,10 +6,8 @@ class Square:
     """A class representing a square."""
     def __init__(self, size=0):
         """Initializes a new Square instance with the given size.
-
         Args:
             size (int, optional): The size of the square. Defaults to 0.
-        
         Raises:
             Exception: If size is not an integer or if size is less than 0.
         """
@@ -23,7 +21,6 @@ class Square:
     @property
     def size(self):
         """Gets the size of the square.
-
         Returns:
             int: The size of the square.
         """
@@ -32,10 +29,8 @@ class Square:
     @size.setter
     def size(self, value):
         """Sets the size of the square.
-
         Args:
             value (int): The new size of the square.
-        
         Raises:
             Exception: If value is not an integer or if value is less than 0.
         """
@@ -48,7 +43,6 @@ class Square:
 
     def area(self):
         """Calculates and returns the area of the square.
-
         Returns:
             int: The area of the square.
         """
