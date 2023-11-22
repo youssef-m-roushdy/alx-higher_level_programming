@@ -10,8 +10,8 @@ class Square:
 
         Args:
             size (int, optional): The size of the square. Defaults to 0.
-            position (tuple, optional): The position of the square in a 2D space.
-                Defaults to (0, 0).
+            position (tuple, optional): The position of the square in a
+            2D space. Defaults to (0, 0).
 
         Raises:
             Exception: If size is not an integer or if size is less than 0.
@@ -44,7 +44,7 @@ class Square:
 
         Args:
             value (int): The new size of the square.
-        
+
         Raises:
             Exception: If value is not an integer or if value is less than 0.
         """
@@ -70,7 +70,7 @@ class Square:
 
         Args:
             value (tuple): The new position of the square in a 2D space.
-        
+
         Raises:
             TypeError: If value is not a tuple of 2 positive integers.
         """
@@ -88,7 +88,8 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        """Prints a square pattern using '#' characters and respecting the position."""
+        """Prints a square pattern using '#'
+        characters and respecting the position."""
         if self.__size == 0:
             print("")
         else:
