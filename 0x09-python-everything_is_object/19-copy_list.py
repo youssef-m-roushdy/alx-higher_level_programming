@@ -1,8 +1,20 @@
 #!/usr/bin/python3
-"""Copy a list."""
-
 
 def copy_list(l):
-    """Copy a list."""
+    """
+    Creates a shallow copy of the input list.
+
+    Parameters:
+    - l (list): The input list to be copied.
+
+    Returns:
+    list: A new list that is a shallow copy of the input list.
+
+    Example:
+    >>> original_list = [1, 2, 3]
+    >>> copied_list = copy_list(original_list)
+    >>> print(copied_list)
+    [1, 2, 3]
+    """
     new_l = l[:]
     return new_l
