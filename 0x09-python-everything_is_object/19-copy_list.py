@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Represent function copy_list."""
+
 def copy_list(l):
-    """represent function copy_list."""
-    new_l = l[:]
+    """Copy a list."""
+    new_l = lst[:]
     return new_l
