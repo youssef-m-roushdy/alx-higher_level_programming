@@ -7,5 +7,5 @@ def add_integer(a, b=98):
     if type(a) == float:
         a = int(a)
     if type(b) == float:
-        a = int(b)
+        b = int(b)
     return a + b
