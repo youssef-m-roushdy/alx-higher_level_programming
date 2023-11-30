@@ -21,7 +21,3 @@ TypeError: a must be an integer
 -5
 >>> add_integer(2.5, 3.5)
 5
->>> add_integer("python", 5)
-Traceback (most recent call last):
-    ...
-TypeError: a must be an integer
