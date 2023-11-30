@@ -3,25 +3,7 @@
 
 
 def add_integer(a, b=98):
-    """
-    Adds two numbers.
-
-    Args:
-        a (int or float): The first number.
-        b (int or float, optional): The second number. Defaults to 98.
-
-    Returns:
-        int: The sum of a and b.
-
-    Raises:
-        TypeError: If either a or b is not an integer or float.
-
-    Examples:
-        >>> add_integer(2, 3)
-        5
-        >>> add_integer(2.5, 3.5)
-        5
-    """
+    """Adds two numbers."""
     if type(a) not in [int, float]:
         raise TypeError("a must be an integer")
     if type(b) not in [int, float]:
