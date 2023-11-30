@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 def add_integer(a, b=98):
     if type(a) not in [int, float]:
-        raise Exception("a must be an integer")
-    elif type(b) not in [int, float]:
-        raise Exception("b must be an integer")
-    a = int(a)
-    b = int(b)
+        raise TypeError("a must be an integer")
+    if type(b) not in [int, float]:
+        raise TypeError("b must be an integer")
+    if type(a) == float:
+        a = int(a)
+    if type(b) == float:
+        a = int(b)
     return a + b
