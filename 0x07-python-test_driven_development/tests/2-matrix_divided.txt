@@ -32,3 +32,6 @@ TypeError: div must be a number
 >>> matrix_divided(matrix)
 Traceback (most recent call last):
 TypeError: matrix_divided() missing 1 required positional argument: 'div'
+>>> matrix_divided('invalid_matrix', 2)
+Traceback (most recent call last):
+TypeError: Matrix must be a matrix (list of lists) of integers/floats.
