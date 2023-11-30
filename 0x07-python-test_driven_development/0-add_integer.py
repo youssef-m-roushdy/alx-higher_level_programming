@@ -4,7 +4,6 @@ def add_integer(a, b=98):
         raise Exception("a must be an integer")
     elif type(b) not in [int, float]:
         raise Exception("b must be an integer")
-    else:
-        a = int(a)
-        b = int(b)
-        return a + b
+    a = int(a)
+    b = int(b)
+    return a + b
