@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""""Module for divides each element of the matrix by the given divisor."""
+"""Module for matrix_divided method."""
 
 
 def matrix_divided(matrix, div):
