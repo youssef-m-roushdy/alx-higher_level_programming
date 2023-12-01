@@ -7,4 +7,3 @@ matrix = [
 ]
 print(matrix_divided(matrix, 3))
 print(matrix)
-print(matrix_divided('invalid_matrix', 2))
