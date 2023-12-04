@@ -17,5 +17,8 @@ class MyList(list):
         TypeError: If the list contains elements that are not integers.
     """
     def print_sorted(self):
+        for ele in self:
+            if type(ele) != int:
+                raise TypeError("The list must be list of integers")
         self.sort()
         print(self)

@@ -4,10 +4,12 @@
 []
 >>> my_list = MyList(['a', 'd', 'c'])
 >>> my_list.print_sorted()
-['a', 'c', 'd']
+Traceback (most recent call last):
+TypeError: The list must be list of integers
 >>> my_list = MyList("hello")
 >>> my_list.print_sorted()
-['e', 'h', 'l', 'l', 'o']
+Traceback (most recent call last):
+TypeError: The list must be list of integers
 >>> my_list = MyList([1, 6, 8, 5, 4])
 >>> my_list.print_sorted()
 [1, 4, 5, 6, 8]
