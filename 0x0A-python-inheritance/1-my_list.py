@@ -18,13 +18,6 @@ class MyList(list):
     """
 
     def print_sorted(self):
-        """Prints the sorted elements of the list.
-
-        Raises:
-            TypeError: If the list contains elements that are not integers.
-        """
-        for val in self:
-            if type(val) != int:
-                raise TypeError("the list must be a list of integers")
+        """Prints the sorted elements of the list."""
         sorted_list = sorted(self[:])
         print(sorted_list)
