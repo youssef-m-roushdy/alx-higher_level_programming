@@ -1,1 +1,12 @@
->>> 
+>>> my_list = MyList()
+>>> my_list.print_sorted()
+[]
+>>> my_list = MyList(['a', 'd', 'c'])
+>>> my_list.print_sorted()
+['a', 'c', 'd']
+>>> my_list = MyList("hello")
+>>> my_list.print_sorted()
+['h', 'e', 'l', 'l', 'o']
+>>> my_list = MyList([1, 6, 8, 5, 4])
+>>> my_list.print_sorted()
+[1, 4, 5, 6, 8]
