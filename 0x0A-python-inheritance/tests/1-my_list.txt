@@ -13,3 +13,11 @@ TypeError: The list must be list of integers
 >>> my_list = MyList([1, 6, 8, 5, 4])
 >>> my_list.print_sorted()
 [1, 4, 5, 6, 8]
+>>> my_list = MyList([-1, 1, -5, -9])
+>>> my_list.print_sorted()
+[-9, -5, -1, 1]
+>>> my_list = MyList([1.5, 0.5, 1.75, 2.5])
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+TypeError: The list must be list of integers
+
