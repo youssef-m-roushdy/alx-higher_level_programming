@@ -31,9 +31,6 @@ class BaseGeometry:
             raise ValueError(f"{name} must be greater than 0")
 
 
-"""A class representing a rectangle."""
-
-
 class Rectangle(BaseGeometry):
     """A class representing a rectangle."""
     def __init__(self, width, height):
