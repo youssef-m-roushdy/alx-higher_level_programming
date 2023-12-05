@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """A base class for geometric shapes."""
-"""A class representing a rectangle."""
 
 
 class BaseGeometry:
@@ -45,6 +44,8 @@ class Rectangle(BaseGeometry):
         Raises:
             ValueError: If either width or height is not a positive integer.
         """
+        self.__width = 0
+        self.__height = 0
         self.integer_validator("width", width)
         self.integer_validator("height", height)
         self.__width = width
