@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """A base class for geometric shapes."""
+"""A class representing a rectangle."""
 
 
 class BaseGeometry:
