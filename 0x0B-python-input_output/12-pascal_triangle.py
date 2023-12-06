@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Represent class student."""
+"""Method pascal_triangle."""
 
 
 def pascal_triangle(n):
