@@ -8,3 +8,4 @@ def read_file(filename=""):
         for line in myFile:
             print(line, end="")
         print("")
+        myFile.closed
