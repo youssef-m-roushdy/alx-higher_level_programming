@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Reads and prints the content of a file line by line."""
+"""Method read_file."""
 
 
 def read_file(filename=""):
