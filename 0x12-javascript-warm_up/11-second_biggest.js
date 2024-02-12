@@ -1,16 +1,11 @@
 #!/usr/bin/node
 
-const { argv } = require('process');
+const args = process.argv.slice(2).map(Number);
 
-if (argv.length <= 3) {
+if (args.length <= 1) {
   console.log(0);
 } else {
-  const arr = [];
-  argv.forEach(e => {
-    if (!isNaN(Number.parseInt(e))) {
-      arr.push(Number.parseInt(e));
-    }
-  });
+  const arr = [...args];
   arr.sort();
   arr.reverse();
   console.log(arr[1]);
