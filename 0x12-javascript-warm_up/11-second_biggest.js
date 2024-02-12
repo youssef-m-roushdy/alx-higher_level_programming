@@ -2,7 +2,7 @@
 
 const { argv } = require('process');
 
-if (argv.length === 3) {
+if (argv.length <= 3) {
   console.log(0);
 } else {
   const arr = [];
@@ -12,5 +12,6 @@ if (argv.length === 3) {
     }
   });
   arr.sort();
+  arr.reverse();
   console.log(arr[1]);
 }
