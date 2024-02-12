@@ -105,24 +105,24 @@ Arguments found
 guillaume@ubuntu:~/0x12$ 
 ```
    
-3. Value of my argument
-mandatory
-Write a script that prints the first argument passed to it:
+## 3. Value of my argument
 
-If no arguments are passed to the script, print “No argument”
-You must use console.log(...) to print all output
-You are not allowed to use var
-You are not allowed to use length
+<b>Write a script that prints the first argument passed to it:</b>
+
+### File: [3-value_argument.js](3-value_argument.js)
+
+* If no arguments are passed to the script, print “No argument”
+* You must use `console.log(...)` to print all output
+* You are not allowed to use `var`
+* You are not allowed to use `length`
+
+```
 guillaume@ubuntu:~/0x12$ ./3-value_argument.js 
 No argument
 guillaume@ubuntu:~/0x12$ ./3-value_argument.js School
 School
 guillaume@ubuntu:~/0x12$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x12-javascript-warm_up
-File: 3-value_argument.js
+```
    
 4. Create a sentence
 mandatory
