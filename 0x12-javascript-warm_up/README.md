@@ -303,7 +303,7 @@ guillaume@ubuntu:~/0x12$
    
 ## 11. Second biggest!
 
-### File: []()
+### File: [11-second_biggest.js](11-second_biggest.js)
 
 <b>Write a script that searches the second biggest integer in the list of arguments.</b>
 
@@ -325,7 +325,7 @@ guillaume@ubuntu:~/0x12$
    
 ## 12. Object
 
-### File: [13-add.js](13-add.js)
+### File: [12-object.js](12-object.js)
 
 <b>Update this script to replace the value `12` with `89`:</b>
 
@@ -352,7 +352,7 @@ guillaume@ubuntu:~/0x12$
    
 ## 13. Add file
 
-### File: 
+### File: [13-add.js](13-add.js) | [13-main.js](13-main.js)
 
 <b>Write a function that returns the addition of 2 integers.</b>
 
