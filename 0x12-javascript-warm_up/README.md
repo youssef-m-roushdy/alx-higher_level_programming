@@ -252,15 +252,19 @@ guillaume@ubuntu:~/0x12$ ./8-square.js -3
 guillaume@ubuntu:~/0x12$ 
 ```
    
-9. Add
-mandatory
-Write a script that prints the addition of 2 integers
+## 9. Add
 
-The first argument is the first integer
-The second argument is the second integer
-You have to define a function with this prototype: function add(a, b)
-You must use console.log(...) to print all output
-You are not allowed to use var
+### File: [9-add.js](9-add.js)
+
+<b>Write a script that prints the addition of 2 integers</b>
+
+* The first argument is the first integer
+* The second argument is the second integer
+* You have to define a function with this prototype: `function add(a, b)`
+* You must use `console.log(...)` to print all output
+* You are not allowed to use `var`
+
+```
 guillaume@ubuntu:~/0x12$ ./9-add.js 
 NaN
 guillaume@ubuntu:~/0x12$ ./9-add.js 1
@@ -270,14 +274,12 @@ guillaume@ubuntu:~/0x12$ ./9-add.js 1 7
 guillaume@ubuntu:~/0x12$ ./9-add.js 13 89
 102
 guillaume@ubuntu:~/0x12$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x12-javascript-warm_up
-File: 9-add.js
+```
    
-10. Factorial
-mandatory
+## 10. Factorial
+
+### File: []()
+
 Write a script that computes and prints a factorial
 
 The first argument is integer (argument can be cast as integer) used for computing the factorial
@@ -302,7 +304,7 @@ Directory: 0x12-javascript-warm_up
 File: 10-factorial.js
    
 11. Second biggest!
-mandatory
+### File: 
 Write a script that searches the second biggest integer in the list of arguments.
 
 You can assume all arguments can be converted to integer
@@ -324,7 +326,7 @@ Directory: 0x12-javascript-warm_up
 File: 11-second_biggest.js
    
 12. Object
-mandatory
+### File: 
 Update this script to replace the value 12 with 89:
 
 You are not allowed to use var
@@ -351,7 +353,7 @@ Directory: 0x12-javascript-warm_up
 File: 12-object.js
    
 13. Add file
-mandatory
+### File: 
 Write a function that returns the addition of 2 integers.
 
 The function must be visible from outside
