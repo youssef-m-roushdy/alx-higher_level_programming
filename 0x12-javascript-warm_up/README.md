@@ -325,11 +325,13 @@ guillaume@ubuntu:~/0x12$
    
 ## 12. Object
 
-### File: 
+### File: [13-add.js](13-add.js)
 
-Update this script to replace the value 12 with 89:
+<b>Update this script to replace the value `12` with `89`:</b>
 
-You are not allowed to use var
+* You are not allowed to use `var`
+
+```
 guillaume@ubuntu:~/0x12$ cat 12-object.js
 #!/usr/bin/node
 const myObject = {
@@ -346,23 +348,21 @@ guillaume@ubuntu:~/0x12$ ./12-object.js
 { type: 'object', value: 12 }
 { type: 'object', value: 89 }
 guillaume@ubuntu:~/0x12$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x12-javascript-warm_up
-File: 12-object.js
+```
    
 ## 13. Add file
 
 ### File: 
 
-Write a function that returns the addition of 2 integers.
+<b>Write a function that returns the addition of 2 integers.</b>
 
-The function must be visible from outside
-The name of the function must be add
-You are not allowed to use var
-Tip
+* The function must be visible from outside
+* The name of the function must be `add`
+* You are not allowed to use `var`
 
+[Tip](https://51elliot.blogspot.com/2012/01/simple-intro-to-nodejs-module-scope.html)
+
+```
 guillaume@ubuntu:~/0x12$ cat 13-main.js
 #!/usr/bin/node
 const add = require('./13-add').add;
@@ -370,8 +370,4 @@ console.log(add(3, 5));
 guillaume@ubuntu:~/0x12$ ./13-main.js
 8
 guillaume@ubuntu:~/0x12$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x12-javascript-warm_up
-File: 13-add.js
+```
