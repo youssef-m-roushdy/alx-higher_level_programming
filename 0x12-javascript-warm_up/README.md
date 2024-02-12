@@ -143,14 +143,18 @@ undefined is undefined
 guillaume@ubuntu:~/0x12$ 
 ```
    
-5. An Integer
-mandatory
-Write a script that prints My number: <first argument converted in integer> if the first argument can be converted to an integer:
+## 5. An Integer
 
-If the argument can’t be converted to an integer, print “Not a number”
-You must use console.log(...) to print all output
-You are not allowed to use var
-You are not allowed to use try/catch
+### File: []()
+
+<b>Write a script that prints `My number: <first argument converted in integer>` if the first argument can be converted to an integer:</b>
+
+* If the argument can’t be converted to an integer, print “Not a number”
+* You must use `console.log(...)` to print all output
+* You are not allowed to use `var`
+* You are not allowed to use `try/catch`
+
+```
 guillaume@ubuntu:~/0x12$ ./5-to_integer.js 
 Not a number
 guillaume@ubuntu:~/0x12$ ./5-to_integer.js 89
@@ -162,11 +166,7 @@ My number: 89
 guillaume@ubuntu:~/0x12$ ./5-to_integer.js School
 Not a number
 guillaume@ubuntu:~/0x12$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x12-javascript-warm_up
-File: 5-to_integer.js
+```
    
 6. Loop to languages
 mandatory
