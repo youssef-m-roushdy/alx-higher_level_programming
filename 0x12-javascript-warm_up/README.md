@@ -81,17 +81,21 @@ JavaScript is amazing
 guillaume@ubuntu:~/0x12$ 
 ```
    
-2. Arguments
-mandatory
-Write a script that prints a message depending of the number of arguments passed:
+## 2. Arguments
 
-If no arguments are passed to the script, print “No argument”
-If only one argument is passed to the script, print “Argument found”
+### File: []()
+
+<b>Write a script that prints a message depending of the number of arguments passed:</b>
+
+* If no arguments are passed to the script, print “No argument”
+* If only one argument is passed to the script, print “Argument found”
 Otherwise, print “Arguments found”
-You must use console.log(...) to print all output
-You are not allowed to use var
-Reference: process.argv
+* You must use `console.log(...)` to print all output
+* You are not allowed to use `var`
 
+Reference: [process.argv](https://nodejs.org/api/process.html#process_process_argv)
+
+```
 guillaume@ubuntu:~/0x12$ ./2-arguments.js 
 No argument
 guillaume@ubuntu:~/0x12$ ./2-arguments.js Best
@@ -99,11 +103,7 @@ Argument found
 guillaume@ubuntu:~/0x12$ ./2-arguments.js Best School
 Arguments found
 guillaume@ubuntu:~/0x12$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x12-javascript-warm_up
-File: 2-arguments.js
+```
    
 3. Value of my argument
 mandatory
