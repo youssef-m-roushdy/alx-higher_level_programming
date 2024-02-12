@@ -145,7 +145,7 @@ guillaume@ubuntu:~/0x12$
    
 ## 5. An Integer
 
-### File: []()
+### File: [5-to_integer.js](5-to_integer.js)
 
 <b>Write a script that prints `My number: <first argument converted in integer>` if the first argument can be converted to an integer:</b>
 
@@ -168,28 +168,28 @@ Not a number
 guillaume@ubuntu:~/0x12$ 
 ```
    
-6. Loop to languages
-mandatory
-Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop
+## 6. Loop to languages
 
-The first line: “C is fun”
-The second line: “Python is cool”
-The third line: “JavaScript is amazing”
-You must use console.log(...) to print all output
-You are not allowed to use var
-You are not allowed to use any if/else statement
-You can use only one console.log
-You must use a loop (while, for, etc.)
+### File: [6-multi_languages_loop.js](6-multi_languages_loop.js)
+
+<b>Write a script that prints 3 lines: (like 1-multi_languages.js) but by using an array of string and a loop</b>
+
+* The first line: “C is fun”
+* The second line: “Python is cool”
+* The third line: “JavaScript is amazing”
+* You must use `console.log(...)` to print all output
+* You are not allowed to use `var`
+* You are not allowed to use any `if/else` statement
+* You can use only one `console.log`
+* You must use a loop (`while`, `for`, etc.)
+
+```
 guillaume@ubuntu:~/0x12$ ./6-multi_languages_loop.js 
 C is fun
 Python is cool
 JavaScript is amazing
 guillaume@ubuntu:~/0x12$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x12-javascript-warm_up
-File: 6-multi_languages_loop.js
+```
    
 7. I love C
 mandatory
