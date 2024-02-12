@@ -283,11 +283,11 @@ guillaume@ubuntu:~/0x12$
 <b>Write a script that computes and prints a factorial</b>
 
 * The first argument is integer (argument can be cast as integer) used for computing the factorial
-* Factorial of NaN is 1
+* Factorial of ``NaN`` is ``1``
 * You must do it recursively
 * You must use a function
-* You must use console.log(...) to print all output
-* You are not allowed to use var
+* You must use ``console.log(...)`` to print all output
+* You are not allowed to use ``var``
 
 ```
 guillaume@ubuntu:~/0x12$ ./10-factorial.js 
@@ -301,15 +301,19 @@ Infinity
 guillaume@ubuntu:~/0x12$ 
 ```
    
-11. Second biggest!
-### File: 
-Write a script that searches the second biggest integer in the list of arguments.
+## 11. Second biggest!
 
-You can assume all arguments can be converted to integer
-If no argument passed, print 0
-If the number of arguments is 1, print 0
-You must use console.log(...) to print all output
-You are not allowed to use var
+### File: []()
+
+<b>Write a script that searches the second biggest integer in the list of arguments.</b>
+
+* You can assume all arguments can be converted to integer
+* If no argument passed, print `0`
+* If the number of arguments is 1, print `0`
+* You must use `console.log(...)` to print all output
+* You are not allowed to use `var`
+
+```
 guillaume@ubuntu:~/0x12$ ./11-second_biggest.js 
 0
 guillaume@ubuntu:~/0x12$ ./11-second_biggest.js 1
@@ -317,14 +321,12 @@ guillaume@ubuntu:~/0x12$ ./11-second_biggest.js 1
 guillaume@ubuntu:~/0x12$ ./11-second_biggest.js 4 2 5 3 0 -3
 4
 guillaume@ubuntu:~/0x12$ 
-Repo:
-
-GitHub repository: alx-higher_level_programming
-Directory: 0x12-javascript-warm_up
-File: 11-second_biggest.js
+```
    
-12. Object
+## 12. Object
+
 ### File: 
+
 Update this script to replace the value 12 with 89:
 
 You are not allowed to use var
@@ -350,8 +352,10 @@ GitHub repository: alx-higher_level_programming
 Directory: 0x12-javascript-warm_up
 File: 12-object.js
    
-13. Add file
+## 13. Add file
+
 ### File: 
+
 Write a function that returns the addition of 2 integers.
 
 The function must be visible from outside
