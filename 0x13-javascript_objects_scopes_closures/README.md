@@ -340,12 +340,12 @@ guillaume@ubuntu:~/0x13$
    
 ## 9. Log me
 
-### File: []() | []()
+### File: [9-logme.js](9-logme.js) | [9-main.js](9-main.js)
 
 <b>Write a function that prints the number of arguments already printed and the new argument value. (see example below)</b>
 
-Prototype: exports.logMe = function (item)
-Output format: <number arguments already printed>: <current argument value>
+* Prototype: `exports.logMe = function (item)`
+* Output format: `<number arguments already printed>: <current argument value>`
 
 ```
 guillaume@ubuntu:~/0x13$ cat 9-main.js
