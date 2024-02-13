@@ -259,15 +259,15 @@ XXXXXXXX
 guillaume@ubuntu:~/0x13$ 
 ```
    
-6. Square #1
+## 6. Square #1
 
-### File: []() | []()
+### File: [6-square.js](6-square.js) | [6-main.js](6-main.js)
 
-<b>Write a class Square that defines a square and inherits from Square of 5-square.js:</b>
+<b>Write a class `Square` that defines a square and inherits from `Square` of `5-square.js`:</b>
 
-You must use the class notation for defining your class and extends
-Create an instance method called charPrint(c) that prints the rectangle using the character c
-If c is undefined, use the character X
+* You must use the class notation for defining your `class` and `extends`
+* Create an instance method called `charPrint(c)` that prints the rectangle using the character c
+If `c` is `undefined`, use the character `X`
 
 ```
 guillaume@ubuntu:~/0x13$ cat 6-main.js
@@ -291,8 +291,10 @@ CCCC
 guillaume@ubuntu:~/0x13$ 
 ```
    
-7. Occurrences
-mandatory
+## 7. Occurrences
+
+### File: []() | []()
+
 <b>Write a function that returns the number of occurrences in a list:</b>
 
 Prototype: exports.nbOccurences = function (list, searchElement)
@@ -313,7 +315,7 @@ guillaume@ubuntu:~/0x13$ ./7-main.js
 guillaume@ubuntu:~/0x13$ 
 ```
    
-8. Esrever
+## 8. Esrever
 
 ### File: []() | []()
 
@@ -336,7 +338,7 @@ guillaume@ubuntu:~/0x13$ ./8-main.js
 guillaume@ubuntu:~/0x13$ 
 ```
    
-9. Log me
+## 9. Log me
 
 ### File: []() | []()
 
@@ -361,7 +363,7 @@ guillaume@ubuntu:~/0x13$ ./9-main.js
 guillaume@ubuntu:~/0x13$ 
 ```
    
-10. Number conversion
+## 10. Number conversion
 
 ### File: []() | []()
 
