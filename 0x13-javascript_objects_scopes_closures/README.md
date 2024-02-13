@@ -293,11 +293,11 @@ guillaume@ubuntu:~/0x13$
    
 ## 7. Occurrences
 
-### File: []() | []()
+### File: [7-occurrences.js](7-occurrences.js) | [7-main.js](7-main.js)
 
 <b>Write a function that returns the number of occurrences in a list:</b>
 
-Prototype: exports.nbOccurences = function (list, searchElement)
+* Prototype: `exports.nbOccurences = function (list, searchElement)`
 
 ```
 guillaume@ubuntu:~/0x13$ cat 7-main.js
