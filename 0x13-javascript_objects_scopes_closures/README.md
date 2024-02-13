@@ -365,13 +365,13 @@ guillaume@ubuntu:~/0x13$
    
 ## 10. Number conversion
 
-### File: []() | []()
+### File: [10-converter.js](10-converter.js) | [10-main.js](10-main.js)
 
 <b>Write a function that converts a number from base 10 to another base passed as argument:</b>
 
-Prototype: exports.converter = function (base)
-You are not allowed to import any file
-You are not allowed to declare any new variable (var, let, etc..)
+* Prototype: `exports.converter = function (base)`
+* You are not allowed to import any file
+* You are not allowed to declare any new variable (`var`, `let`, etc..)
 
 ```
 guillaume@ubuntu:~/0x13$ cat 10-main.js
