@@ -225,13 +225,13 @@ guillaume@ubuntu:~/0x13$
    
 ## 5. Square #0
 
-### File: []() | []()
+### File: [5-square.js](5-square.js) | [5-main.js](5-main.js)
 
-<b>Write a class Square that defines a square and inherits from Rectangle of 4-rectangle.js:</b>
+<b>Write a class `Square` that defines a square and inherits from `Rectangle` of `4-rectangle.js`:</b>
 
-You must use the class notation for defining your class and extends
-The constructor must take 1 argument: size
-The constructor of Rectangle must be called (by using super())
+* You must use the `class` notation for defining your class and `extends`
+* The constructor must take 1 argument: size
+* The constructor of `Rectangle` must be called (by using `super()`)
 
 ```
 guillaume@ubuntu:~/0x13$ cat 5-main.js
