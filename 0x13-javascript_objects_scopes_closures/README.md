@@ -17,11 +17,11 @@
 
 ## 0. Rectangle #0
 
-### File: []()
+### File: [0-rectangle.js](0-rectangle.js) | [0-main.js](0-main.js)
 
-<b>Write an empty class Rectangle that defines a rectangle:</b>
+<b>Write an empty class `Rectangle` that defines a rectangle:</b>
 
-You must use the class notation for defining your class
+* You must use the `class` notation for defining your class
 
 ```
 guillaume@ubuntu:~/0x13$ cat 0-main.js
@@ -38,16 +38,16 @@ Rectangle {}
 guillaume@ubuntu:~/0x13$ 
 ```
    
-1. Rectangle #1
+## 1. Rectangle #1
 
-### File: []() | []()
+### File: [1-rectangle.js](1-rectangle.js) | [1-main.js](1-main.js)
 
-<b>Write a class Rectangle that defines a rectangle:</b>
+<b>Write a class `Rectangle` that defines a rectangle:</b>
 
-You must use the class notation for defining your class
-The constructor must take 2 arguments w and h
-Initialize the instance attribute width with the value of w
-Initialize the instance attribute height with the value of h
+* You must use the class notation for defining your class
+* The constructor must take 2 arguments `w` and `h`
+* Initialize the instance attribute `width` with the value of `w`
+* Initialize the instance attribute `height` with the value of `h`
 
 ```
 guillaume@ubuntu:~/0x13$ cat 1-main.js
@@ -82,7 +82,7 @@ undefined
 guillaume@ubuntu:~/0x13$ 
 ```
    
-2. Rectangle #2
+## 2. Rectangle #2
 
 ### File: []() | []()
 
