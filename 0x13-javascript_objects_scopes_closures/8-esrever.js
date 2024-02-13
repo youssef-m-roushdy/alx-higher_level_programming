@@ -5,5 +5,5 @@ exports.esrever = function (list) {
   list.forEach((e) => {
     reversed.unshift(e);
   });
-  return reversed
+  return reversed;
 };
