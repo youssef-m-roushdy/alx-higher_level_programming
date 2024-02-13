@@ -317,12 +317,12 @@ guillaume@ubuntu:~/0x13$
    
 ## 8. Esrever
 
-### File: []() | []()
+### File: [8-esrever.js](8-esrever.js) | [8-main.js](8-main.js)
 
 <b>Write a function that returns the reversed version of a list:</b>
 
-Prototype: exports.esrever = function (list)
-You are not allow to use the built-in method reverse
+* Prototype: `exports.esrever = function (list)`
+* You are not allow to use the built-in method `reverse`
 
 ```
 guillaume@ubuntu:~/0x13$ cat 8-main.js
