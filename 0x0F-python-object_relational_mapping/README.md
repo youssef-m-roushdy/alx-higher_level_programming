@@ -106,7 +106,7 @@ moved in a future release.")
 
 ## 0. Get all states
 
-### Files: []() | []()
+### Files: [0-select_states.py](0-select_states.py) | [0-select_states.sql](0-select_states.sql)
 
 Write a script that lists all `states` from the database `hbtn_0e_0_usa`:
 
@@ -142,7 +142,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 1. Filter states
 
-### ### Files: []() | []()
+### ### Files: [1-filter_states.py](1-filter_states.py) | [0-select_states.sql](0-select_states.sql)
 
 Write a script that lists all `states` with a `name` starting with `N` (upper N) from the database `hbtn_0e_0_usa`:
 
@@ -175,7 +175,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 2. Filter states by user input
 
-### Files: []() | []()
+### Files: [2-my_filter_states.py](2-my_filter_states.py) | [0-select_states.sql](0-select_states.sql)
 
 Write a script that takes in an argument and displays all values in the `states` table of `hbtn_0e_0_usa` where `name` matches the argument.
 
@@ -208,7 +208,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 3. SQL Injection...
 
-### Files: []() | []()
+### Files: [3-my_safe_filter_states.py](3-my_safe_filter_states.py) | [0-select_states.sql](0-select_states.sql)
 
 Wait, do you remember the previous task? Did you test `"Arizona'; TRUNCATE TABLE states ; SELECT * FROM states WHERE name = '"` as an input?
 
@@ -253,7 +253,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 4. Cities by states
 
-### Files: []() | []()
+### Files: [4-cities_by_state.py](4-cities_by_state.py) | [4-cities_by_state.sql](4-cities_by_state.sql)
 
 Write a script that lists all `cities` from the database `hbtn_0e_4_usa`
 
@@ -313,7 +313,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 5. All cities by state
 
-### Files: []() | []()
+### Files: [5-filter_cities.py](5-filter_cities.py) | [4-cities_by_state.sql](4-cities_by_state.sql)
 
 Write a script that takes in the name of a state as an argument and lists all `cities` of that state, using the database `hbtn_0e_4_usa`
 
@@ -363,7 +363,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 6. First state model
 
-### Files: []() | []()
+### Files: [6-model_state.py](6-model_state.py) | [6-model_state.sql](6-model_state.sql)
 
 Write a python file that contains the class definition of a `State` and an instance `Base = declarative_base()`:
 
@@ -408,7 +408,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 7. All states via SQLAlchemy
 
-### Files: []() | []()
+### Files: [7-model_state_fetch_all.py](7-model_state_fetch_all.py) | [7-model_state_fetch_all.sql](7-model_state_fetch_all.sql)
 
 Write a script that lists all `State` objects from the database `hbtn_0e_6_usa`
 
@@ -438,7 +438,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 8. First state
 
-### Files: []() | []()
+### File: [8-model_state_fetch_first.py](8-model_state_fetch_first.py)
 
 Write a script that prints the first `State` object from the database `hbtn_0e_6_usa`
 
@@ -460,7 +460,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 9. Contains `a`
 
-### Files: []() | []()
+### File: [9-model_state_filter_a.py](9-model_state_filter_a.py)
 
 Write a script that lists all `State` objects that contain the letter `a` from the database `hbtn_0e_6_usa`
 
@@ -483,7 +483,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 10. Get a state
 
-### Files: []() | []()
+### Files: [10-model_state_my_get.py](10-model_state_my_get.py)
 
 Write a script that prints the `State` object with the `name` passed as argument from the database `hbtn_0e_6_usa`
 
@@ -506,7 +506,7 @@ guillaume@ubuntu:~/0x0F$
 
 11. Add a new state
 
-### Files: []() | []()
+### Files: [11-model_state_insert.py](11-model_state_insert.py)
 
 Write a script that adds the `State` object “Louisiana” to the database `hbtn_0e_6_usa`
 
@@ -532,7 +532,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 12. Update a state
 
-### Files: []() | []()
+### Files: [12-model_state_update_id_2.py](12-model_state_update_id_2.py)
 
 Write a script that changes the name of a `State` object from the database `hbtn_0e_6_usa`
 
@@ -557,7 +557,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 13. Delete states
 
-### Files: []() | []()
+### Files: [13-model_state_delete_a.py](13-model_state_delete_a.py)
 
 Write a script that deletes all `State` objects with `a` name containing the letter a from the database `hbtn_0e_6_usa`
 
@@ -577,7 +577,7 @@ guillaume@ubuntu:~/0x0F$
 
 ## 14. Cities in state
 
-### Files: []() | []()
+### Files: [14-model_city_fetch_by_state.py](14-model_city_fetch_by_state.py) | [14-model_city_fetch_by_state.sql](14-model_city_fetch_by_state.sql)
 
 Write a Python file similar to `model_state.py` named `model_city.py` that contains the class definition of a ``City``.
 
