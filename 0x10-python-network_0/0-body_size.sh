@@ -1,3 +1,3 @@
 #!/bin/bash
 
-curl -I $1 | grep -i Content-Length
+curl -sI $1 | grep -i Content-Length
