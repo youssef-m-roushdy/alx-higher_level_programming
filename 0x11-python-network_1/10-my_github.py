@@ -1,17 +1,23 @@
 #!/usr/bin/python3
-"""Sends a search request for a given string to the Star Wars API.
-
-Usage: ./9-starwars.py <search string>
-  - The search request is sent to the Star Wars API search people endpoint.
-"""
-import sys
 import requests
+import sys
 
+def get_github_id(username, personal_access_token):
+    url = f'https://api.github.com/users/{username}'
+    headers = {'Authorization': f'token {personal_access_token}'}
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        return response.json().get('id')
+    else:
+        return None
 
-if __name__ == "__main__":
-    url = "https://swapi.co/api/people"
-    params = {"search": sys.argv[1]}
-    results = requests.get(url, params=params).json()
+if __name__ == '__main__':
+    if len(sys.argv) != 3:
+        print('Usage: ./10-my_github.py <username> <personal_access_token>')
+        sys.exit(1)
 
-    print("Number of results: {}".format(results.get("count")))
-    [print(r.get("name")) for r in results.get("results")]
+    username = sys.argv[1]
+    personal_access_token = sys.argv[2]
+
+    github_id = get_github_id(username, personal_access_token)
+    print(github_id)
